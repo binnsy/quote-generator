@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Example</title>
+      <title>Quote Generator</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <!-- Do not add `link` tags-->
@@ -12,6 +12,19 @@
       <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body>
-      <h1>Browser Template</h1>
+      <h1>Quote Generator</h1>
+
+      <div id="displayQuote">
+      </div>
+      <button onclick="quote()">Quote</button>
+      <script src="quote-file.js"></script>
+
+      <h1>Quote Mantra</h1>
+
+      <div id="displayMantra">
+      </div>
+      <button onclick="mantra()">Mantra</button>
+      <script src="quote-file.js"></script>
     </body>
+
 </html>
